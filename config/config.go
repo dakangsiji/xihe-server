@@ -183,3 +183,7 @@ func (cfg *Config) InitDomainConfig() {
 func (cfg *Config) InitAppConfig() {
 	app.Init(&cfg.App)
 }
+
+func (cfg1 *Config) InitAppConfig1() {
+	app.Init(&cfg.App)
+}
