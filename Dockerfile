@@ -27,3 +27,4 @@ RUN chmod 640 /opt/app/points/task-docs-templates/doc_english.tmpl
 RUN chmod 750 /opt/app/points/task-docs-templates
 
 ENTRYPOINT ["/opt/app/xihe-server"]
+xxx
