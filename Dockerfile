@@ -12,7 +12,7 @@ RUN dnf -y update && \
     dnf in -y shadow && \
     groupadd -g 5000 mindspore && \
     useradd -u 5000 -g mindspore -s /bin/bash -m mindspore
-
+# xxx
 USER mindspore
 WORKDIR /opt/app/
 
